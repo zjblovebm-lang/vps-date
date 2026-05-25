@@ -17,7 +17,7 @@ logging.basicConfig(
 )
 
 # 配置
-VPS_PAGE_URL = "https://woniu336.github.io/vps-date/"  # 替换为你的实际URL
+VPS_PAGE_URL = "http://www.xiyao.net.cn:8080"  # 替换为你的实际URL
 DINGTALK_WEBHOOK = ""
 DINGTALK_SECRET = ""
 
