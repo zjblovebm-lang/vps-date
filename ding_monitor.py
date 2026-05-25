@@ -18,8 +18,8 @@ logging.basicConfig(
 
 # 配置
 VPS_PAGE_URL = "http://www.xiyao.net.cn:8080"  # 替换为你的实际URL
-DINGTALK_WEBHOOK = ""
-DINGTALK_SECRET = ""
+DINGTALK_WEBHOOK = "https://oapi.dingtalk.com/robot/send?access_token=aad63e277c9808d33f0ee011211d9724a565a13a43763e165b0f9fefb6d2e81d"
+DINGTALK_SECRET = "SECb8be94fe6e112cf9fa2daf1bdf80a8fa55dd023471c66872963b520a23926c30"
 
 def calculate_days_until_expire(service):
     """计算距离到期还有多少天"""

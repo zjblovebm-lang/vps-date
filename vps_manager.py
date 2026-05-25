@@ -50,7 +50,7 @@ class NotificationManager:
             chat_id = self.config['telegram']['chat_id']
             
             # 添加详情链接到消息末尾
-            base_url = self.config.get('web_dashboard_url', 'https://woniu336.github.io/vps-date')
+            base_url = self.config.get('web_dashboard_url', 'http://www.xiyao.net.cn:8080')
             message += f"\n\n👉 查看详情：{base_url}"
             
             # 发送消息到Telegram
